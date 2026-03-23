@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray-50: #f9fafb;
+  --color-indigo-600: #4f46e5;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
